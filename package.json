@@ -1,0 +1,10 @@
+{
+  "author": "Rick Dean",
+  "dependencies": {
+    "gl-matrix": "^3.4.3",
+    "web-gl-helpers": "git+https://github.com/deandevl/web-gl-helpers.git"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.0"
+  }
+}

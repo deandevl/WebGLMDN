@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "devel": "parcel ./index.html --dist-dir=devl",
+    "build": "parcel build ./index.html --dist-dir=prod",
+    "watch": "parcel watch ./index.html --dist-dir=devl"
+  },
+  "author": "Rick Dean",
+  "dependencies": {
+    "gl-matrix": "^3.4.3",
+    "web-gl-helpers": "git+https://github.com/deandevl/web-gl-helpers.git"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.0"
+  }
+}
